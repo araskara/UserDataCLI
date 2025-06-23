@@ -30,14 +30,14 @@ It supports basic CRUD operation.
 git clone https://github.com/araskara/UserDataCLI.git
 cd dataExp
 
-### Building###
+### Building
 mvn clean install
 
 ### Add SQLite JDBC Dependency
 
 In your `pom.xml` file:
 
-
+```xml 
 <dependencies>
     <dependency>
         <groupId>org.xerial</groupId>
@@ -45,7 +45,7 @@ In your `pom.xml` file:
         <version>3.45.1.0</version>
     </dependency>
 </dependencies>
-
+```
 
 ### Compile and Run 
 mvn clean compile
